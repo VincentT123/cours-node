@@ -1,0 +1,30 @@
+{
+  "name": "cours-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs-path": "0.0.25",
+    "http": "0.0.1-security",
+    "lodash": "^4.17.20",
+    "os": "^0.1.1",
+    "query-string": "^6.13.8",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentT123/cours-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentT123/cours-node/issues"
+  },
+  "homepage": "https://github.com/VincentT123/cours-node#readme"
+}

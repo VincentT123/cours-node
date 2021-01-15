@@ -1,7 +1,8 @@
 // npm i request : dans le terminal
-// Dans la première ligne, nous chargeons le module
+// Dans la première ligne, nous chargeons le module (i pour install)
 // Le module renvoie une fonction qui peut effectuer des requêtes HTTP
-const request = require('request');request('https://ghibliapi.herokuapp.com/films', (error, response, body) => {   
+const request = require('request');
+request('https://ghibliapi.herokuapp.com/films', (error, response, body) => {   
     // Notre fonction callback vérifie en premier si nous avons reçu une erreur.
     // BEST PRACTICE :  consiste à vérifier d'abord s'il y a des erreurs dans un 
     // callback afin que l'exécution du callback ne se poursuive pas avec des données manquantes.
@@ -58,7 +59,8 @@ function recherche(x, t) {
     }
 };
 var tab = [1, 3, 6, 8, 9];
-var element = 6; recherche(element, tab);
+var element = 6;
+recherche(element, tab);
 
 // Une fonction de callback est une fonction qui est transmise comme argument 
 // à une autre fonction, puis exécutée lorsque l'autre fonction est terminée.
